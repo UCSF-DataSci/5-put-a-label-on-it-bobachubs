@@ -13,7 +13,13 @@ In this section, provide your interpretation of the Logistic Regression model's 
 - How much did the class imbalance affect the results?
 - What does the confusion matrix tell you about the model's predictions?
 
-*Your analysis here...*
+*Accuracy performed the best with a score of 0.9168. This is because the model correctly predicted the majority class most of the time given the imbalance observed in the dataset.*  
+
+*Recall/Sensitivity performed the worst with a score of 0.3. This is because the model failed to predict true positives, the minority cases, most of the time in the imbalanced data*  
+
+*The impact imbalance score was relatively high at 0.6161. This indicates class balance severely affected the model.*
+
+*It shows the model does a fairly good job predicting true negative cases (majority class) but not true positive cases (minority class).*
 
 ## Part 2: Tree-Based Models with Time Series Features
 
